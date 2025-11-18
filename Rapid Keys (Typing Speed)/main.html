@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rapid Keys - Typing Speed Test</title>
+  <link rel="stylesheet" href="/Rapid Keys (Typing Speed)/typing.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="w-[60%] mx-auto my-10 bg-white">
+  <div class="flex justify-between items-center">
+      <button class="cursor-pointer hover:scale-105 duration-300 bg-red-500 text-white text-xl font-semibold shadow-md w-16 h-16 rounded-full start">Start</button>
+      <h2 class="text-2xl text-white font-semibold bg-blue-400 px-7 py-2 capitalize level">Level</h2>
+      <div>
+        <h1 class="bg-amber-300 text-3xl font-bold w-16 h-16 rounded-full flex justify-center items-center timer"></h1>
+        <h5 class="text-center font-semibold text-md">Timer</h5>
+      </div>
+  </div>
+
+  <div class=" mt-10 w-full bg-[#E0D9D9] rounded-md relative content_cover">
+    <textarea readonly rows="8" class="border w-full resize-none focus:outline-none focus-outline-[2px] rounded-md text-lg p-5 leading-7 bg-[#eee] content_box"></textarea>
+    <!-- Overlay div to show typing content -->
+    <div class="overlay absolute inset-0 pointer-events-none w-full text-lg p-5 leading-7">
+
+    </div>
+  </div>
+
+
+
+
+  <div class="mt-10 flex md:items-center justify-between flex-col md:flex-row item-stretch gap-5 md:gap-0">
+    <h1 class="text-xl font-bold">Result: </h1>
+      <h2 class="text-lg font-bold text-white bg-red-400 px-5 py-1 rounded-[50px]">WPM: <span class="wpm"> </span></h2>
+
+      <h2 class="text-lg font-bold text-white bg-amber-400 px-5 py-1 rounded-[50px]">CPM: <span class="cpm"> </span></h2>
+
+      <h2 class="text-lg font-bold text-white bg-green-400 px-5 py-1 rounded-[50px]">Accuracy: <span class="accuracy"> </span></h2>
+
+      <h2 class="text-lg font-bold text-white bg-blue-400 px-5 py-1 rounded-[50px]">Mistakes: <span class="mistakes"> </span></h2>
+  </div>
+
+  <div class="mt-5">
+    <a href="/Rapid Keys (Typing Speed)/index.html" class="pt-5 text-green-300 underline font-semibold">Back to Home</a>
+  </div>
+  <script src="/Rapid Keys (Typing Speed)/main.js"></script>
+</body>
+</html>
